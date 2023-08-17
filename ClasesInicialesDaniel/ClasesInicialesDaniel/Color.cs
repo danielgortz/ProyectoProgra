@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClasesInicialesDaniel
 {
-    class Color
+   public class Color
     {
+        int Rojo;
+        int Verde;
+        int Azul;
     }
 }

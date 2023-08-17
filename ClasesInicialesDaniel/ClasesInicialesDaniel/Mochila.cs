@@ -1,12 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ClasesInicialesDaniel
 {
-    class Mochila
+    public class Mochila
     {
+        int NumDeBolsas;
+        string Tamanio;
+        float Precio;
+        string Disenio;
+        string Material;
+        int NumLlaveros;
+        Color color;
     }
 }
