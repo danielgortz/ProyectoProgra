@@ -5,12 +5,12 @@ namespace ClasesInicialesDaniel
 {
     public class Mochila
     {
-        int NumDeBolsas;
-        string Tamanio;
-        float Precio;
-        string Disenio;
-        string Material;
-        int NumLlaveros;
-        Color color;
+        public int NumDeBolsas;
+        public string Tamanio;
+        public float Precio;
+        public string Disenio;
+        public string Material;
+        public int NumLlaveros;
+        public Color color;
     }
 }
