@@ -12,9 +12,9 @@ namespace Musica
         {
             Artista Mora = new Artista();
             Mora.nombredelartista = "Mora";
-            Mora.miembros = "Mora”;
-            Mora.generosdelartista = "regueton urbano”;
-            Mora.albums = "Paraíso ,último día de clases “;
+            Mora.miembros ="Mora";
+            Mora.generosdelartista ="regueton urbano";
+            Mora.albums ="Paraíso ,último día de clases ";
             Mora.periododeactividad = 2014 - 2023;
 
             Album Paraíso = new Album();
@@ -28,8 +28,8 @@ namespace Musica
             Apa.nombre = " Apa";
             Apa.duracion = 3.50f;
             Apa.generos = "regueton";
-            Repetition.numerodepista = 4;
-            Repetition.compositores = "Quevedo ";
+            Apa.numerodepista = 4;
+            Apa.compositores = "Quevedo ";
 
 
             Artista kaarl = new Artista();
@@ -39,12 +39,12 @@ namespace Musica
             kaarl.albums = "San lucas,Vámonos a Marte,Paris Texas ";
             kaarl.periododeactividad = 2017 - 2023;
 
-            Album San lucas = new Album();
-            San lucas .nombredelalbum = "San Lucas";
-            San lucas .anodepulicacion = 2021;
-            San lucas .generosdelalbum = "indy";
-            San lucas .duraciondelalbum = 50.06f;
-            San lucas.diseñodelacaratuladelalbum = "cartel de ciudad con una pareja ";
+            Album Sanlucas = new Album();
+            Sanlucas.nombredelalbum = "San Lucas";
+            Sanlucas.anodepulicacion = 2021;
+            Sanlucas.generosdelalbum = "indy";
+            Sanlucas.duraciondelalbum = 50.06f;
+            Sanlucas.diseñodelacaratuladelalbum = "cartel de ciudad con una pareja ";
 
             Cancion Vete = new Cancion();
             Vete.nombre = "Vete";
@@ -59,14 +59,14 @@ namespace Musica
             Nata.miembros = "Natanael cano";
             Nata.generosdelartista = "Corridos tumbados";
             Nata.albums = "Natakong ,Natamontana";
-            Linkin.periododeactividad = 2017 - 2023;
+            Nata.periododeactividad = 2017 - 2023;
 
             Album Kong = new Album();
             Kong.nombredelalbum = "Natakong";
             Kong.anodepulicacion = 2021;
             Kong.generosdelalbum = "Corridos ,electrónica ";
-            Meteora.duraciondelalbum = 56.41f;
-            Meteora.diseñodelacaratuladelalbum = “nata en un edificio viendo la ciudad ";
+            Kong.duraciondelalbum = 56.41f;
+            Kong.diseñodelacaratuladelalbum = "nata en un edificio viendo la ciudad";
 
             Cancion Angel = new Cancion();
             Angel.nombre = "Mi bello ángel ";

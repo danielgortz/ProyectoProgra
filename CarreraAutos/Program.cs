@@ -27,6 +27,17 @@ namespace CarreraAutos
             //Mando a competir a mis coches
             hnsRodriguez.competir(ferrari, RedBull);
 
+            //le pongo 201 de gas al ferrari
+            ferrari.PonerGas(20);
+            ferrari.Arrancar();
+            RedBull.Arrancar();
+
+            ferrari.Acelerar(260);
+            RedBull.Acelerar(280);
+
+            ferrari.Arrancar();
+            RedBull.Arrancar();
+
             //Esta instruccion espera a que des enter
             // para continuar
             Console.ReadLine();
