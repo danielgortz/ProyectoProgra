@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClasessIniciales_002
+namespace ejercicio
 {
-   public class Color
+    class Program
     {
-        public int Rojo;
-        public int Verde;
-        public int Azul;
+        static void Main(string[] args)
+        {
+        }
     }
 }
