@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace ClasesInicialesDaniel
+namespace ClasessIniciales_002
 {
     public class Mochila
     {

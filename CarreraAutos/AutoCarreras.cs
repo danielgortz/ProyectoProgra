@@ -23,14 +23,26 @@ namespace CarreraAutos
 
         }
 
-        public void Acelerar(int cantidad)
-        {
-            velocidad = velocidad + cantidad;
-            Console.WriteLine(
-                modelo + " tiene"
-                + velocidad + " 260 de velocidad");
+        public void Acelerar(int aceleracion )
 
+        {
+            //metodo acelerar disminuir la gasolina y si la gasolina llega a 0 mandar mensaje
+            gasolina = gasolina - velocidad / 10f;
+            velocidad = velocidad + aceleracion;
+
+            if (gasolina < 0)
+            {
+                Console.WriteLine(modelo + "sin combustible");
+
+            }
+
+            else
+            {
+                Console.WriteLine(modelo + "sin energia" + velocidad + " estoy fuera chicos");
+            }
         }
+
+        
 
         public void Frenar()
         {

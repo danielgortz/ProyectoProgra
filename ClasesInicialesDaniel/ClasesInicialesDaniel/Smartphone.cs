@@ -1,56 +1,90 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace ClasesInicialesDaniel
+namespace ClasessIniciales_002
 {
-  public class Smartphone
-    
-        {
-        public string technology;
-        public int Announced;
-        public string Status;
-        public float Dimensions;
-        public int Weight;
-        public string Build;
-        public string Sim;
-        public string BodyType;
-        public float Size;
-        public int Resolution;
-        public string Protection;
-        public string Os;
-        public string Chipset;
-        public string CPU;
-        public string Gpu;
-        public string CardSlot;
-        public int Dual;
-        public string Features;
-        public string Video;
-        public int Single;
-        public string CameraFeatures;
-        public string video;
-        public string Loudspeaker;
-        public string Jack;
-        public string WLAN;
-        public float Bluetooh;
-        public string Positioning;
-        public string NFC;
-        public string Radio;
-        public string USB;
-        public string Sensors;
-        public string Type;
-        public string Charging;
-        public string color;
-        public int Models;
-        public float Sar;
-        public float SarEu;
-        public float Price;
-        public int Permormance;
-        public string Display;
-        public string Camera;
-        public float LoudSpeaker;
-        public string BatteryLife;
+    class Smartphone
+    {
+        public string NetworkTech;
 
+        public int LaunchAnnounced;
+        public string LaunchStatus;
 
-        }
-    
+        public float BodyDimensionsHeight;
+        public float BodyDimensionsBroad;
+        public float BodyDimensionsThickness;
+        public int BodyWeight;
+        public string BodyBuild;
+        public string BodySIM;
+
+        public string DisplayType;
+        public int DisplayTypeHz;
+        public int DisplayTypeNits;
+        public float DisplaySize;
+        public int DisplayResolutionHeight;
+        public int DisplayResolutionBroad;
+        public string DisplayProtection;
+
+        public int PlataformOSAndroid;
+        public int PlataformOsUpagradeAndroid;
+        public string PlataformChipset;
+        public string PlataformCPU;
+        public string PlataformGPU;
+
+        public string MemoryCardslot;
+        public int MemoryInternalGB;
+        public int MemoryInternalRAMGB;
+
+        public int MaincameraQuadMP;
+        public float MaincameraQuadf;
+        public string MaincameraQuad;
+        public string MaincameraFeatures;
+        public int MaincameraVideop;
+        public int MaincameraVideofps;
+
+        public int SelfiecameraSingleMP;
+        public float SelfiecameraSinglef;
+        public string SelfiecameraSingle;
+        public int SelfiecameraVideop;
+        public int SelfiecameraVideofps;
+
+        public string SoundLoudspeaker;
+        public string Soundjack;
+
+        public float CommsWlanWifi;
+        public string CommsWlan;
+        public float CommsBluetooth;
+        public string CommsPositioning;
+        public string CommsNfc;
+        public string CommsRadio;
+        public string CommsUsb;
+
+        public string FeaturesSensors;
+
+        public int BatteryTypemAh;
+        public string BatteryType;
+        public int BatteryChargingW;
+
+        public string MiscColors;
+        public string MiscModels;
+        public float MiscSarEuheadkg;
+        public float MiscSarEubodykg;
+        public float MiscPriceDollars;
+        public float MiscPriceEuro;
+        public float MiscPricePound;
+
+        public int TestsPerformanceAnTuTu;
+        public int TestsPerformanceAnTuTuversion;
+        public int TestsPerformanceGeekBench;
+        public int TestsPerformanceGeekBenchversion;
+        public int TestsPerformanceGfxBench;
+        public string TestsPerformanceGfxBenchV;
+        public string TestsDisplay;
+        public string TestsCamera;
+        public float TestsLoudspeakerLufs;
+        public int TestsBatterylifeH;
+    }
 }
