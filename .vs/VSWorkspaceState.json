@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\CarreraAutos",
-    "\\CarreraAutos\\ClasesInicialesDaniel"
+    "\\CarreraAutos\\ClasesInicialesDaniel",
+    "\\CarreraAutos\\ClasesInicialesDaniel\\ClasesInicialesDaniel",
+    "\\CarreraAutos\\ClasesInicialesDaniel\\Generador de Nombres",
+    "\\CarreraAutos\\ClasesInicialesDaniel\\Generador de nombress",
+    "\\CarreraAutos\\ClasesInicialesDaniel\\GeneradorNombresVillanos",
+    "\\CarreraAutos\\ClasesInicialesDaniel\\musica"
   ],
-  "SelectedNode": "\\CarreraAutos\\PistaCarreras.cs",
+  "SelectedNode": "\\CarreraAutos\\ClasesInicialesDaniel\\GeneradorNombresVillanos\\GeneradorNombresVillanos.cs",
   "PreviewInSolutionExplorer": false
 }
